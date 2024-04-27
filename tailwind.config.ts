@@ -17,7 +17,14 @@ const config = {
         "2xl": "1400px",
       },
     },
-    extend: {
+    extend: {fontWeight: {
+      'thin': '100',
+      'light': '300',
+      'normal': '450',
+      'semibold': '500',
+      'extrabold': '800',
+      'black': '900',
+    },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

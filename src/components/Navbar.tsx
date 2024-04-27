@@ -23,6 +23,7 @@ import { useContext } from "react";
 
 import { SidebarMenu } from "./Sidebar";
 import Search from "./Search";
+import User from "./User";
 // import User from "./User";
 
 export default function NavbarComponent() {
@@ -115,6 +116,7 @@ export default function NavbarComponent() {
                     href="#"
                     aria-current="page"
                   >
+                    <div className="p-3"><User/></div>
                     Admirra John
                     <div className="p-1">
                         <svg
