@@ -262,7 +262,7 @@ export default function Home() {
             </div>
             
 
-            <div className="p-[10px] border-t border-t-[#E0E0E0]  text-[16px] text-[#FF5151] text-center rounded-b-md w-[473px] bg-white  absolute bottom-[-185px]">
+            <div className="p-[10px] border-t border-t-[#E0E0E0] border-b border-b-[#E0E0E0] text-[16px] text-[#FF5151] text-center rounded-b-md w-[473px] bg-white  absolute bottom-[-165px]">
               Create a new schedule
             </div>
           </div>
