@@ -20,7 +20,7 @@ const config = {
     extend: {fontWeight: {
       'thin': '100',
       'light': '300',
-      'normal': '450',
+      'normal': '425',
       'semibold': '500',
       'extrabold': '800',
       'black': '900',

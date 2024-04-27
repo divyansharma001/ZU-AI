@@ -15,21 +15,19 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-// import { useTheme } from "next-themes";
+
 import { useRouter } from "next/navigation";
 import { useContext } from "react";
-// import * as Icon from "react-feather";
-// import { ThemeContext } from "./Provider";
+
 
 import { SidebarMenu } from "./Sidebar";
 import Search from "./Search";
 import User from "./User";
-// import User from "./User";
+
 
 export default function NavbarComponent() {
   const router = useRouter();
-//   const theme = useContext(ThemeContext);
-//   const { setTheme } = useTheme();
+
   const logout = () => {
     localStorage.removeItem("user");
 
@@ -38,7 +36,7 @@ export default function NavbarComponent() {
   };
 
   return (
-    <header className="sticky top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4 border-b">
+    <header className=" top-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4 border-b">
       <nav
         className="max-w-full w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"

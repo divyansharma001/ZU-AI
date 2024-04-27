@@ -115,7 +115,7 @@ export function SidebarMenu() {
   const uniqueLabels = Array.from(new Set(menus.map((menu) => menu.label)));
 
   return (
-    <ScrollArea className="h-screen lg:w-56 sm:w-full bg-gray-50 border ">
+    <ScrollArea className="h-full lg:w-56 sm:w-full bg-gray-50 border ">
       <div className="text-center text-3xl font-bold m-3 p-3 pt-8 w-32 h-16">
         ZU AI
       </div>
